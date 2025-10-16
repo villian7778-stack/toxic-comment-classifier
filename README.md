@@ -31,17 +31,17 @@ cd toxic-comment-classifier
 
 
 ### 2. Create and activate a virtual environment (optional but recommended)  
-# Using conda 
+## Using conda 
      
 conda create -n toxic-nlp python=3.10 -y
 conda activate toxic-nlp
 
-# OR using venv
+## OR using venv
 python -m venv toxic-nlp
 source toxic-nlp/Scripts/activate   # Windows
 source toxic-nlp/bin/activate       # Linux/Mac
 
-#### 3. Install dependencies
+## 3. Install dependencies
 pip install -r requirements.txt
 
 
@@ -52,7 +52,7 @@ python toxic_classifier.py
 
 
 
-# 2. Sample interaction
+## 2. Sample interaction
 Enter a comment to check toxicity (or 'exit' to quit): This is garbage.
 ---------------------------------------------------
 🗨️ Comment: This is garbage.
@@ -74,7 +74,7 @@ Probability [Non-Toxic, Toxic]: [0.4, 0.6]
 
 
 
-# 🛠️ Code Structure
+## 🛠️ Code Structure
 toxic-comment-classifier/
 │
 ├─ toxic_classifier.py       # Main Python script
@@ -85,7 +85,7 @@ toxic-comment-classifier/
 └─ .gitignore                # Files/folders to ignore
 
 
-# 📝 Dependencies
+## 📝 Dependencies
 
 All required libraries are listed in requirements.txt:
 
@@ -96,11 +96,11 @@ numpy
 langdetect
 
 
-# Install them using:
+## Install them using:
 
 pip install -r requirements.txt
 
-# ⚠️ Notes
+## ⚠️ Notes
 
 The dataset is small; for real-world usage, consider using a larger, labeled dataset.
 
@@ -108,7 +108,7 @@ Non-English comments will display a warning.
 
 Predictions include probability scores for transparency.
 
-# Usage
+## Usage
 
 Run toxic_classifier.py.
 
@@ -118,7 +118,7 @@ See if it is Toxic or Non-Toxic with probability.
 
 Check sample_output.txt for sample results.
 
-# Future Enhancements
+## Future Enhancements
 
 ---Add more training data for better accuracy.
 
