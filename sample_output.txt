@@ -1,0 +1,46 @@
+📊 Model Evaluation Metrics:
+Accuracy: 0.40
+Precision: 0.40
+Recall: 1.00
+F1 Score: 0.57
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+   Non-Toxic       0.00      0.00      0.00         3
+       Toxic       0.40      1.00      0.57         2
+
+    accuracy                           0.40         5
+   macro avg       0.20      0.50      0.29         5
+weighted avg       0.16      0.40      0.23         5
+
+---------------------------------------------------
+🗨️ Comment: This sucks badly.
+Prediction: Toxic (1)
+Probability [Non-Toxic, Toxic]: [0.40228726 0.59771274]
+---------------------------------------------------
+🗨️ Comment: This is garbage.
+Prediction: Toxic (1)
+Probability [Non-Toxic, Toxic]: [0.40228726 0.59771274]
+---------------------------------------------------
+🗨️ Comment: Keep up the excellent work!
+Prediction: Non-Toxic (0)
+Probability [Non-Toxic, Toxic]: [0.6025071 0.3974929]
+---------------------------------------------------
+🗨️ Comment: Shut up, nobody cares!
+Prediction: Toxic (1)
+Probability [Non-Toxic, Toxic]: [0.43910157 0.56089843]
+---------------------------------------------------
+⚠️ Warning: Non-English text detected!
+🗨️ Comment: nobody cares
+Prediction: Toxic (1)
+Probability [Non-Toxic, Toxic]: [0.49041238 0.50958762]
+---------------------------------------------------
+🗨️ Comment: I really appreciate your help today
+Prediction: Non-Toxic (0)
+Probability [Non-Toxic, Toxic]: [0.55574778 0.44425222]
+---------------------------------------------------
+⚠️ Warning: Non-English text detected!
+🗨️ Comment: Useless
+Prediction: Toxic (1)
+Probability [Non-Toxic, Toxic]: [0.43910157 0.56089843]
+---------------------------------------------------

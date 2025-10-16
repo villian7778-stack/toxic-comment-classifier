@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+# Ignore model directories
+toxic_model/
+
+# Ignore results directory
+results/
+# Ignore trained classifier script (BERT version)
+bert_toxic_toxic_classifier.py
